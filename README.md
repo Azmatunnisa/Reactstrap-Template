@@ -1,7 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Clone the  project 
-git clone 
+## USAGE
+git clone https://github.com/Azmatunnisa/Reactstrap-Template.git
+npm install
+npm start
 
 ## Available Scripts
 
