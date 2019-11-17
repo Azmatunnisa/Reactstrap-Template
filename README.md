@@ -2,7 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## USAGE
 git clone https://github.com/Azmatunnisa/Reactstrap-Template.git
+
 npm install
+
 npm start
 
 ## Available Scripts
