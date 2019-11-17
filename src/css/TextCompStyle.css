@@ -1,0 +1,52 @@
+.containStyle{
+    background-color: lightgray;
+    height: 500px;
+}
+.colStyle h2{
+    padding: 50px;
+    color: #16B1C5;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.paraStyle p{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 50px;
+    padding-bottom: 0px;
+    width: 550px;
+    font-weight: bold;
+    color: #565657;
+    overflow-x: hidden
+}
+@media screen and (max-width: 1024px) {
+    .containStyle{
+       
+        overflow-x: hidden
+    }
+    .paraStyle p{
+    width:400px;
+    font-size: 15px;
+    }
+    
+  }
+
+ @media screen and (max-width: 768px) {
+    .containStyle{
+        min-width: 768px;
+       
+    }
+    .paraStyle p{
+        
+        font-size: 14px;
+       
+    }
+  } 
+
+  @media screen and (max-width: 980px) {
+   
+    .paraStyle p{
+        
+        font-size: 15px;
+       
+    }
+  } 

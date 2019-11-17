@@ -1,0 +1,49 @@
+div.noPadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.noMargin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.containerStyle{
+    margin-top: 100px;
+    
+}
+.imageStyle{
+width: 450px;
+
+}
+.cont2{
+background-color: lightgray;
+height: 200px;
+}
+
+@media screen and (max-width: 1085px) {
+    .containerStyle{
+        margin-top: 68px;
+        min-width: 765px;
+       
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .containerStyle{
+        margin-top: 100px;
+       
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .imageStyle{
+        width: 768px;
+       
+    }
+  }
+  /* @media screen and (max-width: 768px) {
+    .cont2{
+       
+        min-width: 768px;
+       
+    }
+  } */
+  
